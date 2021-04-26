@@ -132,3 +132,31 @@
     top: 250%;
     left: 20%;
   }
+
+  /* section4 */
+  .contact{
+    position: absolute;
+    top: 320%;
+    left: 40%;
+    font-size: 5rem;
+  }
+
+  .telepic{
+    width: 25%;
+    position: absolute;
+    top: 340%;
+    left: 10%;
+  }
+  .icon{
+    width: 10%;
+  }
+  .conicon{
+    position: relative;
+    top: 50%;
+    left: 120%;
+  }
+  .add{
+    position: relative;
+    top: 65%;
+    left: 23%;
+  }
