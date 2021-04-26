@@ -4,7 +4,6 @@
   }
   body{
       font-family: kanit;
-      
   }
 ::-webkit-scrollbar {
   display: none;
@@ -110,6 +109,8 @@
   .frame{
     font-size: 1.3rem;
   }
+
+  /* section3 */
   .slide{
     position: relative;
     top: 10%;
@@ -120,4 +121,14 @@
     position: relative;
     top: 10%;
     right: 75%;
+  }
+  .subheadwork{
+    position: absolute;
+    top: 230%;
+    left: 13%;
+  }
+  .workde{
+    position: absolute;
+    top: 250%;
+    left: 20%;
   }
