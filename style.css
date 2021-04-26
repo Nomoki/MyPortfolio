@@ -5,15 +5,16 @@
   body{
       font-family: kanit;
   }
-  .container{
-    width: 100vw;
+  .container1{
+    width: 90vw;
     height: 100vh;
+    overflow: hidden;
   }
 
   section{
       width: 100%;
   }
-  section .container{
+  section .container1{
       padding: 2rem;
       display: grid;
       grid-template-columns: repeat(2,1fr);
