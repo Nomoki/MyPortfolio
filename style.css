@@ -29,14 +29,14 @@
       font-size: 5rem;
       position: relative;
       top: 22%;
-      left: 20%;
+      left: 30%;
   }
   .lname{
       font-size: 2rem;
       font-weight: bold;
       position:relative;
       top: 20%;
-      left: 20%;
+      left: 30%;
   }
   .role{
     font-size: 130%;
@@ -45,11 +45,64 @@
   .boxreole{
     position: relative;
     top: 22%;
-    left: 20%;
+    left: 30%;
     width: 40%;
     height: 8%;
     background-color: yellow;
 
     display: flex;
     align-items: center;
+  }
+
+  /* section2 */
+  #about{
+    font-size: 5rem;
+    color: white;
+    position: absolute;
+    top: 115%;
+    left: 50%;
+  }
+  .bg-black{
+    background-color: black;
+  }
+  .img2{
+    position: relative;
+    
+  }
+  .name{
+    position: absolute;
+    top: 130%;
+    left: 50%;
+    color: white;
+  }
+  .skill{
+    color: white;
+    position: absolute;
+    top: 160%;
+    left: 50%;
+  }
+  .edu{
+    color: white;
+    position: absolute;
+    top: 160%;
+    left: 75%;
+  }
+  .skillde{
+    color: white;
+    position: absolute;
+    top: 168%;
+    left: 50%;
+
+  }
+  .edude{
+    color: white;
+    position: absolute;
+    top: 168%;
+    left: 75%;
+  }
+  .code{
+    font-size: 1.3rem;
+  }
+  .frame{
+    font-size: 1.3rem;
   }
