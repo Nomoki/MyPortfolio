@@ -4,6 +4,10 @@
   }
   body{
       font-family: kanit;
+      
+  }
+::-webkit-scrollbar {
+  display: none;
   }
   .container1{
     width: 90vw;
