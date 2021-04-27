@@ -113,10 +113,10 @@
   }
 
   /* section3 */
-  .slide{
+  .slidecon{
     position: relative;
     top: 10%;
-    left: 50%;
+    left: 100%;
   }
   .mywork{
     font-size: 5rem;
@@ -172,7 +172,141 @@
     top: 65%;
     left: 23%;
   }
+  
+
+
+  /* workpage */
+  .headwork{
+    font-size: 5vw;
+    position: absolute;
+    top: 15%;
+    left: 41%;
+  }
+  .slidehead{
+    position: relative;
+    top: 20%;
+    left: 60%;
+  }
+
+  .phone{
+    width: 300%;
+  }
+  .thaiwon{
+    position: relative;
+    top: 15%;
+    left: 30%;
+  }
+  .headthai{
+    color: white;
+    position: absolute;
+    top: 120%;
+    left: 38%;
+  }
+  .thaides{
+    color: white;
+    position: absolute;
+    top: 180%;
+    left: 43%;
+  }
+  .thaisec{
+    background-color: gray;
+  }
+  .thaidesP{
+    color: white;
+    position: absolute;
+    top: 187%;
+    left: 35%;
+  }
+  
+  .Webhead{
+    font-size: 5rem;
+    position: absolute;
+    top: 220%;
+    left: 42%;
+  }
+  .webteacher{
+    position: absolute;
+    top: 245%;
+    width: 30%;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+  .webteacher:hover{
+    transform: scale(1.2,1.2);
+  }
+  .webog{
+    position: absolute;
+    top: 245%;
+    width: 30%;
+    left: 36%;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+  .webog:hover{
+    transform: scale(1.2,1.2);
+  }
+  .webdino{
+    position: absolute;
+    top: 245%;
+    width: 30%;
+    left: 68%;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+  .webdino:hover{
+    transform: scale(1.2,1.2);
+  }
+
+  .ddd{
+    color: white;
+    font-size: 10rem;
+    position: absolute;
+    top: 320%;
+    left: 45%;
+  }
+  .tankblack{
+    width: 30%;
+    position: absolute;
+    top: 350%;
+    left: 15%;
+  }
+  .tankhead{
+    font-size: 5rem;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    top: 385%;
+    left: 46%;
+  }
+  .kirby{
+    width: 30%;
+    position: absolute;
+    top: 400%;
+  }
+
   @media screen and (max-width: 992px) {
+    .headthai {
+      color: white;
+      position: absolute;
+      top: 120%;
+      left: 25%;
+      font-size: 5vw;
+  }
+  .thaides {
+    color: white;
+    position: absolute;
+    top: 160%;
+    left: 33%;
+    font-size: 4vw;
+}
+.thaidesP {
+  color: white;
+  position: absolute;
+  top: 167%;
+  left: 15%;
+  font-size: 2vw;
+}
+    
     .fname{
       font-weight: bold;
         font-size: 5vw;
@@ -266,7 +400,7 @@
   top: 275%;
   left: 45%;
 }
-.slide {
+.slidecon {
   position: absolute;
   width: 60vw;
   top: 210%;
@@ -294,10 +428,58 @@
   left: 40%;
   font-size: 10vw;
 }
-    
+
   }
 
   @media screen and (max-width: 576px) {
+    .webdino {
+      position: absolute;
+      top: 270%;
+      width: 60%;
+      left: 25%;
+      transition: 0.5s;
+      cursor: pointer;
+  }
+  .tankblack {
+    width: 70%;
+    position: absolute;
+    top: 350%;
+    left: 15%;
+}
+    .webteacher {
+      position: absolute;
+      top: 230%;
+      left: 25%;
+      width: 60%;
+      transition: 0.5s;
+      cursor: pointer;
+  }
+  .webog {
+    position: absolute;
+    top: 250%;
+    width: 60%;
+    left: 25%;
+    transition: 0.5s;
+    cursor: pointer;
+}
+    .Webhead {
+      font-size: 8vw;
+      position: absolute;
+      top: 220%;
+      left: 42%;
+  }
+    .phone {
+      width: 700%;
+      position: relative;
+      right: 200%;
+  }
+    
+    .headthai {
+      color: white;
+      position: absolute;
+      top: 120%;
+      left: 25%;
+  }
     .skill {
       font-size: 3vw;
       color: white;
@@ -349,115 +531,5 @@
   left: 40%;
 }
 
-  }
-
-
-  /* workpage */
-  .headwork{
-    font-size: 5rem;
-    position: absolute;
-    top: 15%;
-    left: 41%;
-  }
-  .slidehead{
-    position: relative;
-    top: 10%;
-    left: 15%;
-  }
-
-  .phone{
-    width: 300%;
-  }
-  .thaiwon{
-    position: relative;
-    top: 15%;
-    left: 30%;
-  }
-  .headthai{
-    color: white;
-    position: absolute;
-    top: 120%;
-    left: 38%;
-  }
-  .thaides{
-    color: white;
-    position: absolute;
-    top: 180%;
-    left: 43%;
-  }
-  .thaisec{
-    background-color: gray;
-  }
-  .thaidesP{
-    color: white;
-    position: absolute;
-    top: 187%;
-    left: 35%;
-  }
-  
-  .Webhead{
-    font-size: 5rem;
-    position: absolute;
-    top: 220%;
-    left: 42%;
-  }
-  .webteacher{
-    position: absolute;
-    top: 245%;
-    width: 30%;
-    transition: 0.5s;
-    cursor: pointer;
-  }
-  .webteacher:hover{
-    transform: scale(1.2,1.2);
-  }
-  .webog{
-    position: absolute;
-    top: 245%;
-    width: 30%;
-    left: 35%;
-    transition: 0.5s;
-    cursor: pointer;
-  }
-  .webog:hover{
-    transform: scale(1.2,1.2);
-  }
-  .webdino{
-    position: absolute;
-    top: 245%;
-    width: 30%;
-    left: 68%;
-    transition: 0.5s;
-    cursor: pointer;
-  }
-  .webdino:hover{
-    transform: scale(1.2,1.2);
-  }
-
-  .ddd{
-    color: white;
-    font-size: 10rem;
-    position: absolute;
-    top: 320%;
-    left: 45%;
-  }
-  .tankblack{
-    width: 30%;
-    position: absolute;
-    top: 350%;
-    left: 15%;
-  }
-  .tankhead{
-    font-size: 5rem;
-    font-weight: bold;
-    color: white;
-    position: absolute;
-    top: 385%;
-    left: 46%;
-  }
-  .kirby{
-    width: 30%;
-    position: absolute;
-    top: 400%;
   }
 
