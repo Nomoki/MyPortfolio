@@ -184,7 +184,7 @@
   }
   .thaiwon{
     position: relative;
-    top: 20%;
+    top: 15%;
     left: 30%;
   }
   .headthai{
@@ -196,9 +196,15 @@
   .thaides{
     color: white;
     position: absolute;
-    top: 185%;
+    top: 180%;
     left: 43%;
   }
   .thaisec{
     background-color: gray;
+  }
+  .thaidesP{
+    color: white;
+    position: absolute;
+    top: 187%;
+    left: 35%;
   }
