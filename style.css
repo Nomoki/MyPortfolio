@@ -452,6 +452,12 @@
   }
 
   @media screen and (max-width: 576px) {
+    #popup {
+      position: absolute;
+      width: 70%;
+      top: 52%;
+      left: 20%;
+  }
     .webdino {
       position: absolute;
       top: 270%;
