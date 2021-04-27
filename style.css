@@ -124,7 +124,7 @@
   }
   .subheadwork{
     position: absolute;
-    top: 230%;
+    top: 231%;
     left: 13%;
   }
   .workde{
@@ -177,4 +177,25 @@
     position: relative;
     top: 10%;
     left: 15%;
+  }
+
+  .phone{
+    width: 300%;
+  }
+  .thaiwon{
+    position: relative;
+    top: 20%;
+    left: 30%;
+  }
+  .headthai{
+    color: white;
+    position: absolute;
+    top: 120%;
+    left: 38%;
+  }
+  .thaides{
+    color: white;
+    position: absolute;
+    top: 185%;
+    left: 43%;
   }
