@@ -246,5 +246,31 @@
   }
   .webdino:hover{
     transform: scale(1.2,1.2);
+  }
 
+  .ddd{
+    color: white;
+    font-size: 10rem;
+    position: absolute;
+    top: 320%;
+    left: 45%;
+  }
+  .tankblack{
+    width: 30%;
+    position: absolute;
+    top: 350%;
+    left: 15%;
+  }
+  .tankhead{
+    font-size: 5rem;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    top: 385%;
+    left: 46%;
+  }
+  .kirby{
+    width: 30%;
+    position: absolute;
+    top: 400%;
   }
