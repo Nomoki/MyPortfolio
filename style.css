@@ -44,6 +44,7 @@
   .role{
     font-size: 130%;
     margin: auto;
+    text-align: center;
   }
   .boxreole{
     position: relative;
@@ -55,6 +56,7 @@
 
     display: flex;
     align-items: center;
+    
   }
 
   /* section2 */
@@ -154,6 +156,11 @@
   }
   .icon{
     width: 10%;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+  .icon:hover{
+    transform: scale(1.2,1.2);
   }
   .conicon{
     position: relative;
@@ -165,6 +172,130 @@
     top: 65%;
     left: 23%;
   }
+  @media screen and (max-width: 992px) {
+    .fname{
+      font-weight: bold;
+        font-size: 5vw;
+        position: relative;
+        top: 22%;
+        left: 30%;
+    }
+    .lname{
+      font-size: 5vw;
+      font-weight: bold;
+      position:relative;
+      top: 20%;
+      left: 30%;
+  }
+  .boxreole {
+    position: relative;
+    top: 22%;
+    left: 30%;
+    width: 40%;
+    height: 8%;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+  }
+  .role {
+    font-size: 2vw;
+    text-align: center;
+}
+  #about {
+    font-size: 5vw;
+    color: white;
+    position: absolute;
+    top: 115%;
+    left: 50%;
+}
+  .name {
+    font-size: 1.5vw;
+    position: absolute;
+    top: 125vh;
+    left: 50%;
+    color: white;
+}
+.skill {
+    font-size: 3vw;
+    color: white;
+    position: absolute;
+    top: 170%;
+    left: 15%;
+}
+.skillde {
+  font-size: 1vw;
+  color: white;
+  position: absolute;
+  top: 175%;
+  left: 15%;
+}
+.edu {
+  font-size: 3vw;
+  color: white;
+  position: absolute;
+  top: 170%;
+  left: 55%;
+}
+.edude {
+  font-size: 1vw;
+  color: white;
+  position: absolute;
+  top: 175%;
+  left: 55%;
+}
+.code {
+  font-size: 3vw;
+}
+.frame {
+  font-size: 3vw;
+}
+.img2 {
+  position: relative;
+  top: 5%;
+}
+
+.mywork {
+  font-size: 5vw;
+  position: absolute;
+  top: 260%;
+  right: 35%;
+}
+.subheadwork {
+  font-size: 2vw;
+  position: absolute;
+  top: 265%;
+  left: 43%;
+}
+.slide {
+  position: absolute;
+  width: 70vw;
+  top: 210%;
+  left: 10%;
+}
+.workde {
+  position: absolute;
+  top: 268%;
+  left: 43%;
+}
+.btnpos {
+  position: absolute;
+  top: 280%;
+  left: 45%;
+}
+.icon {
+  width: 8vw;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.contact {
+  position: absolute;
+  top: 320%;
+  left: 40%;
+  font-size: 10vw;
+}
+    
+  }
+
 
   /* workpage */
   .headwork{
@@ -274,3 +405,4 @@
     position: absolute;
     top: 400%;
   }
+
