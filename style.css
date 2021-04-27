@@ -208,3 +208,43 @@
     top: 187%;
     left: 35%;
   }
+  
+  .Webhead{
+    font-size: 5rem;
+    position: absolute;
+    top: 220%;
+    left: 42%;
+  }
+  .webteacher{
+    position: absolute;
+    top: 245%;
+    width: 30%;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+  .webteacher:hover{
+    transform: scale(1.2,1.2);
+  }
+  .webog{
+    position: absolute;
+    top: 245%;
+    width: 30%;
+    left: 35%;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+  .webog:hover{
+    transform: scale(1.2,1.2);
+  }
+  .webdino{
+    position: absolute;
+    top: 245%;
+    width: 30%;
+    left: 68%;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+  .webdino:hover{
+    transform: scale(1.2,1.2);
+
+  }
