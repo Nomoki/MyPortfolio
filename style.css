@@ -255,31 +255,32 @@
 }
 
 .mywork {
-  font-size: 5vw;
+  font-size: 3vw;
   position: absolute;
-  top: 260%;
-  right: 35%;
+  top: 270%;
+  right: 43%;
 }
 .subheadwork {
-  font-size: 2vw;
+  font-size: 1vw;
   position: absolute;
-  top: 265%;
-  left: 43%;
+  top: 275%;
+  left: 45%;
 }
 .slide {
   position: absolute;
-  width: 70vw;
+  width: 60vw;
   top: 210%;
-  left: 10%;
+  left: 15%;
 }
 .workde {
+  font-size: 1.5vw;
   position: absolute;
-  top: 268%;
-  left: 43%;
+  top: 280%;
+  left: 45%;
 }
 .btnpos {
   position: absolute;
-  top: 280%;
+  top: 293%;
   left: 45%;
 }
 .icon {
@@ -294,6 +295,60 @@
   font-size: 10vw;
 }
     
+  }
+
+  @media screen and (max-width: 576px) {
+    .skill {
+      font-size: 3vw;
+      color: white;
+      position: absolute;
+      top: 142%;
+      left: 50%;
+  }
+    .skillde {
+      font-size: 1vw;
+      color: white;
+      position: absolute;
+      top: 145%;
+      left: 50%;
+}
+.edu {
+  font-size: 3vw;
+  color: white;
+  position: absolute;
+  top: 172%;
+  left: 50%;
+}
+.edude {
+  font-size: 1vw;
+  color: white;
+  position: absolute;
+  top: 175%;
+  left: 50%;
+}
+.mywork {
+  font-size: 5vw;
+  position: absolute;
+  top: 250%;
+  right: 37%;
+}
+.subheadwork {
+  font-size: 2vw;
+  position: absolute;
+  top: 255%;
+  left: 41%;
+}
+.workde {
+  position: absolute;
+  top: 260%;
+  left: 43%;
+}
+.btnpos {
+  position: absolute;
+  top: 280%;
+  left: 40%;
+}
+
   }
 
 
