@@ -125,18 +125,21 @@
     position: absolute;
     top: 150%;
     left: 50%;
+    font-size: 2vw;
   }
   .edu{
     color: white;
     position: absolute;
     top: 130%;
     left: 73%;
+    font-size: 2.3vw;
   }
   .skillde{
     color: white;
     position: absolute;
     top: 156%;
     left: 50%;
+    font-size: 0.8vw;
 
   }
   .edude{
@@ -144,24 +147,27 @@
     position: absolute;
     top: 136%;
     left: 73%;
+    font-size: 0.8vw;
   }
   .exp{
     color: white;
     position: absolute;
     top: 158%;
     left: 73%;
+    font-size: 2vw;
   }
   .expde{
     color: white;
     position: absolute;
     top: 165%;
     left: 73%;
+    font-size: 0.8vw;
   }
   .code{
-    font-size: 1.3rem;
+    font-size: 2vw;
   }
   .frame{
-    font-size: 1.3rem;
+    font-size: 0.8vw;
   }
 
   /* section3 */
