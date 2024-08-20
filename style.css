@@ -77,6 +77,17 @@
     width: 45%;
     height: 10%;
   }
+  #work{
+    position: relative;
+    top: 10%;
+    text-align: center;
+  }
+  #worklist{
+    position: relative;
+    top: 10%;
+    text-align: center;
+  }
+ 
 
 
   /* section2 */
@@ -103,27 +114,39 @@
   .skill{
     color: white;
     position: absolute;
-    top: 160%;
+    top: 150%;
     left: 50%;
   }
   .edu{
     color: white;
     position: absolute;
-    top: 160%;
-    left: 75%;
+    top: 130%;
+    left: 73%;
   }
   .skillde{
     color: white;
     position: absolute;
-    top: 168%;
+    top: 156%;
     left: 50%;
 
   }
   .edude{
     color: white;
     position: absolute;
-    top: 168%;
-    left: 75%;
+    top: 136%;
+    left: 73%;
+  }
+  .exp{
+    color: white;
+    position: absolute;
+    top: 158%;
+    left: 73%;
+  }
+  .expde{
+    color: white;
+    position: absolute;
+    top: 165%;
+    left: 73%;
   }
   .code{
     font-size: 1.3rem;
@@ -193,6 +216,19 @@
     left: 23%;
   }
   
+   /* New workpage */
+   .wrapper {
+    /* add this at the end */
+
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    grid-gap: 0 50px;
+    grid-auto-flow: column;
+    grid-template-columns: auto;
+
+    padding: 30px 60px;
+    padding-right: 0;        
+}
 
 
   /* workpage */
@@ -241,7 +277,7 @@
   .Webhead{
     font-size: 5rem;
     position: absolute;
-    top: 220%;
+    top: 30%;
     left: 42%;
   }
   .webteacher{
@@ -397,6 +433,21 @@
   top: 175%;
   left: 55%;
 }
+.exp{
+  font-size: 3vw;
+  color: white;
+  position: absolute;
+  top: 187%;
+  left: 55%;
+}
+.expde{
+  font-size: 1vw;
+  color: white;
+  position: absolute;
+  top: 191%;
+  left: 55%;
+}
+
 .code {
   font-size: 3vw;
 }
@@ -524,14 +575,28 @@
   font-size: 3vw;
   color: white;
   position: absolute;
-  top: 172%;
+  top: 160%;
   left: 50%;
 }
 .edude {
   font-size: 1vw;
   color: white;
   position: absolute;
-  top: 175%;
+  top: 163%;
+  left: 50%;
+}
+.exp{
+  font-size: 3vw;
+  color: white;
+  position: absolute;
+  top: 170%;
+  left: 50%;
+}
+.expde{
+  font-size: 1vw;
+  color: white;
+  position: absolute;
+  top: 173%;
   left: 50%;
 }
 .mywork {
