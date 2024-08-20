@@ -96,8 +96,42 @@
     font-size: 2vw;
 
   }
- 
+  #threeD{
+    position: relative;
+    top: 1.5%;
+   left: 48vw;
+    font-size: 2vw;
+  }
+ .boxthreeD{
+  position:relative;
+  left: 25vw;
+  width: 50%;
+  height: 50%;
+ }
+ #imgcol{
+  height: 85vh;
+  width: 100%;
+  object-fit: cover;
+ }
+ .carousel-control-next-icon{
+  background-color: gray;
+  border-radius: 3px;
+ }
 
+ .carousel-control-prev-icon{
+  background-color: gray;
+  border-radius: 3px;
+ }
+ .boxtdigital{
+  position:relative;
+  left: 25vw;
+  width: 50%;
+  height: 50%;
+ }
+ .digi{
+  position:relative;
+  left: 24vw;
+ }
 
   /* section2 */
   #about{
@@ -156,6 +190,7 @@
     left: 73%;
     font-size: 2vw;
   }
+
   .expde{
     color: white;
     position: absolute;
