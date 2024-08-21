@@ -10,6 +10,9 @@
     height: 100vh;
     overflow: hidden;
   }
+  .concol{
+    background-color: lightgrey;
+  }
 
   section{
       width: 100%;
@@ -199,6 +202,7 @@
     font-size: 0.8vw;
   }
   .code{
+    font-weight: 500;
     font-size: 2vw;
   }
   .frame{
@@ -236,7 +240,7 @@
   /* section4 */
   .contact{
     position: absolute;
-    top: 320%;
+    top: 500%;
     left: 40%;
     font-size: 5rem;
   }
@@ -244,7 +248,7 @@
   .telepic{
     width: 25%;
     position: absolute;
-    top: 340%;
+    top: 500%;
     left: 10%;
   }
   .icon{
@@ -545,7 +549,7 @@
 }
 .contact {
   position: absolute;
-  top: 320%;
+  top: 420%;
   left: 40%;
   font-size: 10vw;
 }
