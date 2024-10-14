@@ -5,6 +5,14 @@
 ::-webkit-scrollbar {
   display: none;
   }
+  a{
+    text-decoration: none !important;
+    border:0px !important;
+    outline:none;
+    border-width: 0px;
+    outline-width:0px;
+    border-bottom: none;
+ }
   .container1{
     width: 90vw;
     height: 100vh;
@@ -266,38 +274,8 @@
     top: 65%;
     left: 23%;
   }
-  
-   /* New workpage */
-   .wrapper {
-    /* add this at the end */
-
-    display: grid;
-    grid-template-columns: repeat(6, auto);
-    grid-gap: 0 50px;
-    grid-auto-flow: column;
-    grid-template-columns: auto;
-
-    padding: 30px 60px;
-    padding-right: 0;        
-}
 
 
-  /* workpage */
-  .headwork{
-    font-size: 5vw;
-    position: absolute;
-    top: 15%;
-    left: 41%;
-  }
-  .slidehead{
-    position: relative;
-    top: 20%;
-    left: 60%;
-  }
-
-  .phone{
-    width: 300%;
-  }
   .thaiwon{
     position: relative;
     top: 15%;
