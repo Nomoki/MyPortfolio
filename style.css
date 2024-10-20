@@ -429,21 +429,21 @@
     left: 50%;
 }
   .name {
-    font-size: 1.5vw;
+    font-size: 3vw;
     position: absolute;
     top: 125vh;
     left: 50%;
     color: white;
 }
 .skill {
-    font-size: 3vw;
+    font-size: 5vw;
     color: white;
     position: absolute;
     top: 170%;
     left: 15%;
 }
 .skillde {
-  font-size: 1vw;
+  font-size: 1rem;
   color: white;
   position: absolute;
   top: 175%;
@@ -626,42 +626,42 @@
       color: white;
       position: absolute;
       top: 142%;
-      left: 50%;
+      left: 30%;
   }
     .skillde {
-      font-size: 1vw;
+      font-size: 2vw;
       color: white;
       position: absolute;
       top: 145%;
-      left: 50%;
+      left: 30%;
 }
 .edu {
   font-size: 3vw;
   color: white;
   position: absolute;
-  top: 160%;
-  left: 50%;
+  top: 170%;
+  left: 30%;
 }
 .edude {
-  font-size: 1vw;
+  font-size: 2vw;
   color: white;
   position: absolute;
-  top: 163%;
-  left: 50%;
+  top: 173%;
+  left: 30%;
 }
 .exp{
   font-size: 3vw;
   color: white;
   position: absolute;
-  top: 170%;
-  left: 50%;
+  top: 185%;
+  left: 30%;
 }
 .expde{
-  font-size: 1vw;
+  font-size: 2vw;
   color: white;
   position: absolute;
-  top: 173%;
-  left: 50%;
+  top: 188%;
+  left: 30%;
 }
 .mywork {
   font-size: 5vw;
