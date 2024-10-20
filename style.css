@@ -91,7 +91,7 @@
     position: relative;
     top: 5%;
     left: 44vw;
-    font-size: 3vw;
+    font-size: 3rem;
   }
   #worklist{
     position: relative;
@@ -108,7 +108,7 @@
     position: relative;
     top: 1.5%;
    left: 48vw;
-    font-size: 2vw;
+    font-size: 2rem;
   }
  .boxthreeD{
   position:relative;
@@ -139,6 +139,7 @@
  .digi{
   position:relative;
   left: 24vw;
+  font-size: 2rem;
  }
 
   /* section2 */
@@ -523,11 +524,32 @@
   cursor: pointer;
 }
 .contact {
-  position: absolute;
-  top: 420%;
+  position: relative;
+  top: 10%;
   left: 40%;
   font-size: 10vw;
 }
+.telepic{
+  width: 50vw;
+  position: relative;
+  top: 30%;
+  left: -30vw;
+}
+.add{
+  left: -20vw;
+  top: 5vw;
+}
+#work{
+  position: relative;
+  top: 5%;
+  left: 25vw;
+  font-size: 3rem;
+}
+#websi{
+  left: 40vw;
+  font-size: 5vw;
+}
+
 
   }
 
