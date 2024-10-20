@@ -625,42 +625,42 @@
       font-size: 3vw;
       color: white;
       position: absolute;
-      top: 142%;
+      top: 152%;
       left: 50%;
   }
     .skillde {
       font-size: 1vw;
       color: white;
       position: absolute;
-      top: 145%;
+      top: 155%;
       left: 50%;
 }
-.edu {
-  font-size: 3vw;
-  color: white;
-  position: absolute;
-  top: 160%;
-  left: 50%;
+    .edu {
+      font-size: 3vw;
+      color: white;
+      position: absolute;
+      top: 170%;
+      left: 50%;
 }
 .edude {
   font-size: 1vw;
   color: white;
   position: absolute;
-  top: 163%;
+  top: 173%;
   left: 50%;
 }
 .exp{
   font-size: 3vw;
   color: white;
   position: absolute;
-  top: 170%;
+  top: 180%;
   left: 50%;
 }
 .expde{
   font-size: 1vw;
   color: white;
   position: absolute;
-  top: 173%;
+  top: 183%;
   left: 50%;
 }
 .mywork {
